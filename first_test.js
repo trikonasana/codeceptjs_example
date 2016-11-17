@@ -1,6 +1,8 @@
-
 Feature('FirstFeature');
 
-Scenario('open google.de', (I) => {
-    I.amOnPage('/');
+Scenario('some clicking around', (I,homepage,contact) => {
+    homepage.open();
+    I.see(homepage.logo);
+    contact.open();
+    I.see(homepage.logo);
 });

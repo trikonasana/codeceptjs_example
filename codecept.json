@@ -4,12 +4,14 @@
   "output": "./output",
   "helpers": {
     "WebDriverIO": {
-      "url": "http://www.google.de",
+      "url": "http://www.thoughtworks.de",
       "browser": "firefox"
     }
   },
   "include": {
-    "I": "./steps_file.js"
+    "I": "./steps_file.js",
+    "homepage": "./pages/homepage.js",
+    "contact": "./pages/contact.js",
   },
   "bootstrap": false,
   "mocha": {},
