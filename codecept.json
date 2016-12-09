@@ -10,8 +10,10 @@
   },
   "include": {
     "I": "./steps_file.js",
-    "homepage": "./pages/homepage.js",
-    "contact": "./pages/contact.js",
+    "homepage": "./pages/home/homepage.js",
+    "contact": "./pages/contact/contact.js",
+    "header": "./pages/fragments/header.js",
+    "footer": "./pages/fragments/footer.js"
   },
   "bootstrap": false,
   "mocha": {},

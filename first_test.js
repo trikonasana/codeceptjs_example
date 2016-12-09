@@ -1,8 +1,9 @@
 Feature('FirstFeature');
 
-Scenario('some clicking around', (I,homepage,contact) => {
+Scenario('some clicking around', (I,homepage,header,contact) => {
     homepage.open();
-    I.see(homepage.logo);
+    I.see(header.langauge.spanishLink);
+    I.seeElement(header.langauge.spanishLinkElement);
     contact.open();
-    I.see(homepage.logo);
+    I.seeElement(header.utilities.search.inputField);
 });
