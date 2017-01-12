@@ -16,4 +16,4 @@ module.exports = {
     I.amOnPage(this.uri);
   }
 
-}
+};

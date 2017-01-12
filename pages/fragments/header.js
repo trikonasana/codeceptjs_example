@@ -15,7 +15,7 @@ module.exports = {
     spanishLinkElement: 'a[title="Spanish version of ThoughtWorks website"]',
     portugueseLinkElement: 'a[title="Portuguese version of ThoughtWorks website"]',
     englishLinkElement: 'a[title="English version of ThoughtWorks website"]',
-    chineseLinkElement: 'a[title="Chinese version of ThoughtWorks website"]',
+    chineseLinkElement: 'a[title="Chinese version of ThoughtWorks website"]'
   },
   utilities: {
     menu: 'ul[id="util_menu"]',
@@ -28,4 +28,4 @@ module.exports = {
     contactLink: 'a[href="/de/contact-us"]'
   }
 
-}
+};
